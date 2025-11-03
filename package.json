@@ -1,0 +1,32 @@
+{
+  "name": "messenger",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "start": "bun src/index.ts | pino-pretty",
+    "lint": "eslint --fix src"
+  },
+  "type": "module",
+  "dependencies": {
+    "@effect/platform": "^0.92.1",
+    "@effect/platform-bun": "^0.81.1",
+    "effect": "^3.18.4",
+    "eta": "^4.0.1",
+    "ioredis": "^5.8.2",
+    "nodemailer": "^7.0.10",
+    "pino": "^10.1.0",
+    "puregram": "^2.26.8"
+  },
+  "devDependencies": {
+    "@trivago/prettier-plugin-sort-imports": "^5.2.2",
+    "@types/bun": "^1.3.1",
+    "@types/nodemailer": "^7.0.3",
+    "eslint": "^9.39.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.4",
+    "globals": "^16.5.0",
+    "pino-pretty": "^13.1.2",
+    "prettier": "^3.6.2",
+    "typescript-eslint": "^8.46.2"
+  }
+}

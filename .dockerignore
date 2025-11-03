@@ -1,0 +1,8 @@
+node_modules
+.idea
+.gitignore
+.git
+.env
+.editorconfig
+.prettierrc
+eslint.config.mjs
